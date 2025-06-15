@@ -1,4 +1,4 @@
-##  🤖 ChatMyPDF – Ask Your PDF Anything (Groq + LangChain)
+##  🤖 Upload.Ask.Learn – Ask Your PDF Anything (Groq + LangChain)
 
 **ChatMyPDF** is a smart chatbot that lets you upload a PDF (like a book, research paper, or notes) and then *talk to it* using natural language. It understands your questions and answers based on what's inside the file — powered by **Groq's blazing-fast LLMs** like **Mixtral** and **LLaMA 3**.
 
