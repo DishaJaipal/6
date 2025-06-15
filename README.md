@@ -1,4 +1,4 @@
-##🤖 ChatMyPDF – Ask Your PDF Anything (Groq + LangChain)
+##  🤖 ChatMyPDF – Ask Your PDF Anything (Groq + LangChain)
 
 **ChatMyPDF** is a smart chatbot that lets you upload a PDF (like a book, research paper, or notes) and then *talk to it* using natural language. It understands your questions and answers based on what's inside the file — powered by **Groq's blazing-fast LLMs** like **Mixtral** and **LLaMA 3**.
 
@@ -10,7 +10,7 @@ Built using:
 
 ---
 
-##🌟 What Can It Do?
+## 🌟 What Can It Do?
 
 - 📎 Upload any PDF (notes, textbook, paper, etc.)
 - ❓ Ask questions in plain English
@@ -22,28 +22,28 @@ Built using:
 
 ## 🛠️ How to Use It (For Devs)
 
-##🔧 1. Clone the Project
+## 🔧 1. Clone the Project
 
 
 
-##🌐 2. Install the Required Libraries
+## 🌐 2. Install the Required Libraries
 bash
 python -m venv venv
 source venv/bin/activate  # (Windows: venv\Scripts\activate)
 pip install -r requirements.txt
 ----------
-##🔑 3. Add Your Groq API Key
+## 🔑 3. Add Your Groq API Key
 - Create a file named .env in the root folder:
 env
 GROQ_API_KEY=your_groq_api_key_here
 Get your key at 👉 https://console.groq.com/keys
 ---
-##▶️ 4. Start the Chatbot
+## ▶️ 4. Start the Chatbot
 bash
 python app.py
 Then open http://localhost:5000 in your browser.
 ---
-##🧠 How It Works (Behind the Scenes)
+## 🧠 How It Works (Behind the Scenes)
 
 📂 You upload a PDF.
 📄 The file is split into chunks using LangChain.
@@ -52,7 +52,7 @@ Then open http://localhost:5000 in your browser.
 ⚡ It sends those parts (plus your question) to Groq’s LLM.
 🤯 You get an answer that actually knows your document!
 ---
-##🗂️ Project Structure
+## 🗂️ Project Structure
 chatmypdf/
 ├── app.py                # Flask backend
 ├── templates/
@@ -64,13 +64,13 @@ chatmypdf/
 ├── vectorstore/          # Saved FAISS vector DB
 └── temp/                 # Uploaded PDF files
 
-##🌍 Want to Deploy?
+## 🌍 Want to Deploy?
 Platform	How to Do It
 🟢 Render	Connect repo, use Python template
 💻 Replit	Paste code, upload files manually
 🧪 Local	Just run python app.py and go
 ---
-##🚀 Future Ideas (If You Want to Expand)
+## 🚀 Future Ideas (If You Want to Expand)
 Feature	How to Add
 Streamed responses	Use Groq's streaming API in Flask
 File history	Save vectors per file in separate folders
@@ -78,13 +78,13 @@ User login	Add Firebase or Flask-Login for sessions
 UI polish	Add Tailwind, Bootstrap, or React frontend
 Multiple files	Combine vectors across docs
 
-##🧪 Backup Option (If Groq Doesn’t Work)
+## 🧪 Backup Option (If Groq Doesn’t Work)
 You can switch to OpenAI in app.py like this:
 python
 from langchain.chat_models import ChatOpenAI
 llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="your-openai-key")
 ---
-##❤️ Built By
+## ❤️ Built By
 Team of 4 developers in 5 hours 💻⏱
 Dsha Jaipal,Prakruthi U,Bhuvanashree,Sindhushree N H 
 
@@ -96,10 +96,10 @@ Frontend UI
 
 RAG Integration & Testing
 
-##📄 License
+## 📄 License
 MIT License © 2025 [Your Name or Team]
 
-##🙌 Acknowledgements
+## 🙌 Acknowledgements
 Groq API
 LangChain
 FAISS by Meta
