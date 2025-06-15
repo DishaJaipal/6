@@ -98,13 +98,13 @@ llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="your-openai-key")
 ---
 ## 👩‍💻 Team Roles
 
-- Prakruthi U:  www.linkedin.com/in/prakruthi-u-180463296 | github.com/PRAKRUTHI77
+- Prakruthi U:  www.linkedin.com/in/prakruthi-u-180463296 | www.github.com/PRAKRUTHI77
   Frontend development (UI/UX), Firebase integration, GitHub repository setup  
-- Sindhushree N H: www.linkedin.com/in/sindhushree-nh-38a748332 | github.com/SindhushreeNH
+- Sindhushree N H: www.linkedin.com/in/sindhushree-nh-38a748332 | www.github.com/SindhushreeNH
   Chat UI styling, frontend Flask endpoint connection, GitHub repository management  
-- Bhuvanashree: www.linkedin.com/in/bhuvanashree-s-5525a9258 | github.com/Bhuvanashree13
+- Bhuvanashree: www.linkedin.com/in/bhuvanashree-s-5525a9258 | www.github.com/Bhuvanashree13
   LangChain + Groq integration for RAG chatbot, vector DB setup, embeddings and retrieval  
-- Disha Jaipal: www.linkedin.com/in/disha-jaipal-25318a247 | github.com/DishaJaipal
+- Disha Jaipal: www.linkedin.com/in/disha-jaipal-25318a247 | www.github.com/DishaJaipal
   Flask backend (`main.py`), file handling, system setup, Flask–LangChain–frontend glue logic
 
 
