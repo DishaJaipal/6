@@ -99,6 +99,10 @@ Multiple files	Combine vectors across docs
 - Disha Jaipal: www.linkedin.com/in/disha-jaipal-25318a247 | www.github.com/DishaJaipal
   Flask backend (`main.py`), file handling, system setup, Flask–LangChain–frontend glue logic
 
+## 👩‍💻 End Results
+
+ppt link:https://drive.google.com/file/d/1oDF4mBhw8lEuQqwgev1caMb66ocr2R9Z/view?usp=sharing
+working video link:https://drive.google.com/file/d/1sI-zmGYBSDWqvEgUguAru9vxKRslXNkG/view?usp=sharing
 
 ## 📄 License
 
