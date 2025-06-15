@@ -47,7 +47,7 @@ Get your key at 👉 https://console.groq.com/keys
 ## ▶️ 4. Start the Chatbot
 bash
 
-python app.py
+python main.py
 
 Then open hhtp://localhost:500 in your broser
 
@@ -65,7 +65,7 @@ Then open hhtp://localhost:500 in your broser
 ## 🗂️ Project Structure
 
 - chatmypdf/
-- ├── app.py                # Flask backend
+- ├── main.py                # Flask backend
 - ├── templates/
 - │   └── index.html        # Web UI
 - ├── static/
@@ -77,7 +77,7 @@ Then open hhtp://localhost:500 in your broser
 
 ## 🌍 Want to Deploy?
 
-🧪 Local	Just run python app.py and go
+🧪 Local	Just run python main.py and go
 
 free deployment is not possible for this project due to the large 
 
