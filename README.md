@@ -108,15 +108,6 @@ llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="your-openai-key")
   Flask backend (`main.py`), file handling, system setup, Flask–LangChain–frontend glue logic
 
 
-
-PDF Parser & Chunker
-
-Flask + Groq Backend
-
-Frontend UI
-
-RAG Integration & Testing
-
 ## 📄 License
 
 MIT License © 2025 [PIXELS]
