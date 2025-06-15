@@ -30,6 +30,7 @@ Built using:
 ## 🌐 2. Install the Required Libraries
 
 bash
+
 python -m venv venv
 
 source venv/bin/activate  # (Windows: venv\Scripts\activate)
@@ -45,6 +46,7 @@ Get your key at 👉 https://console.groq.com/keys
 ---
 ## ▶️ 4. Start the Chatbot
 bash
+
 python app.py
 
 Then open hhtp://localhost:500 in your broser
@@ -76,17 +78,20 @@ Then open hhtp://localhost:500 in your broser
 ## 🌍 Want to Deploy?
 
 🧪 Local	Just run python app.py and go
-or 
-link:
+
+free deployment is not possible for this project due to the large 
 
 ---
-## 🚀 Future Ideas (If You Want to Expand)
+## 🚀 Future Ideas 
 
-Feature	How to Add
 Streamed responses	Use Groq's streaming API in Flask
+
 File history	Save vectors per file in separate folders
+
 User login	Add Firebase or Flask-Login for sessions
+
 UI polish	Add Tailwind, Bootstrap, or React frontend
+
 Multiple files	Combine vectors across docs
 
 ## 👩‍💻 Team Roles
@@ -113,6 +118,9 @@ MIT License © 2025 [PiXeLs]
 ## 🙌 Acknowledgements
 
 Groq API
+
 LangChain
+
 FAISS by Meta
+
 PyPDF
