@@ -75,10 +75,9 @@ Then open hhtp://localhost:500 in your broser
 
 ## 🌍 Want to Deploy?
 
-Platform	How to Do It
-🟢 Render	Connect repo, use Python template
-💻 Replit	Paste code, upload files manually
 🧪 Local	Just run python app.py and go
+or 
+link:
 
 ---
 ## 🚀 Future Ideas (If You Want to Expand)
