@@ -102,7 +102,7 @@ Multiple files	Combine vectors across docs
 
 ## 📄 License
 
-MIT License © 2025 [PIXELS]
+MIT License © 2025 [PiXeLs]
 
 ## 🙌 Acknowledgements
 
