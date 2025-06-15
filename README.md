@@ -39,6 +39,7 @@ GROQ_API_KEY=your_groq_api_key_here
 Get your key at 👉 https://console.groq.com/keys
 ---
 ## ▶️ 4. Start the Chatbot
+
 bash
 python app.py
 Then open http://localhost:5000 in your browser.
@@ -53,24 +54,27 @@ Then open http://localhost:5000 in your browser.
 🤯 You get an answer that actually knows your document!
 ---
 ## 🗂️ Project Structure
-chatmypdf/
-├── app.py                # Flask backend
-├── templates/
-│   └── index.html        # Web UI
-├── static/
-│   └── script.js         # JS logic for uploading + chatting
-├── .env                  # Groq API key
-├── requirements.txt      # All dependencies
-├── vectorstore/          # Saved FAISS vector DB
-└── temp/                 # Uploaded PDF files
+
+- chatmypdf/
+- ├── app.py                # Flask backend
+- ├── templates/
+- │   └── index.html        # Web UI
+- ├── static/
+- │   └── script.js         # JS logic for uploading + chatting
+- ├── .env                  # Groq API key
+- ├── requirements.txt      # All dependencies
+- ├── vectorstore/          # Saved FAISS vector DB
+- └── temp/                 # Uploaded PDF files
 
 ## 🌍 Want to Deploy?
+
 Platform	How to Do It
 🟢 Render	Connect repo, use Python template
 💻 Replit	Paste code, upload files manually
 🧪 Local	Just run python app.py and go
 ---
 ## 🚀 Future Ideas (If You Want to Expand)
+
 Feature	How to Add
 Streamed responses	Use Groq's streaming API in Flask
 File history	Save vectors per file in separate folders
@@ -79,12 +83,14 @@ UI polish	Add Tailwind, Bootstrap, or React frontend
 Multiple files	Combine vectors across docs
 
 ## 🧪 Backup Option (If Groq Doesn’t Work)
+
 You can switch to OpenAI in app.py like this:
 python
 from langchain.chat_models import ChatOpenAI
 llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="your-openai-key")
 ---
 ## ❤️ Built By
+
 Team of 4 developers in 5 hours 💻⏱
 Dsha Jaipal,Prakruthi U,Bhuvanashree,Sindhushree N H 
 
@@ -97,9 +103,11 @@ Frontend UI
 RAG Integration & Testing
 
 ## 📄 License
+
 MIT License © 2025 [Your Name or Team]
 
 ## 🙌 Acknowledgements
+
 Groq API
 LangChain
 FAISS by Meta
