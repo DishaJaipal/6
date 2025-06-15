@@ -1,0 +1,10 @@
+pip
+autopep8
+Flask
+flask-cors
+groq
+langchain
+PyMuPD
+tiktoken
+gunicorn==22.0.0
+Werkzeug==3.0.6
