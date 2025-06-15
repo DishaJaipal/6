@@ -88,14 +88,6 @@ User login	Add Firebase or Flask-Login for sessions
 UI polish	Add Tailwind, Bootstrap, or React frontend
 Multiple files	Combine vectors across docs
 
-## 🧪 Backup Option (If Groq Doesn’t Work)
-
-You can switch to OpenAI in app.py like this:
-python
-from langchain.chat_models import ChatOpenAI
-llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="your-openai-key")
-
----
 ## 👩‍💻 Team Roles
 
 - Prakruthi U:  www.linkedin.com/in/prakruthi-u-180463296 | www.github.com/PRAKRUTHI77
