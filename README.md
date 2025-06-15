@@ -115,4 +115,4 @@ MIT License © 2025 [PiXeLs]
 Groq API
 LangChain
 FAISS by Meta
-PyMuPDF
+PyPDF
